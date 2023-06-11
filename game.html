@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Shooting Balloons</title>
+	<link rel="icon" type="image/png" href="images/red-balloon-clipart-6.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<style>
+		body {
+			background-color: #f1f1f1;
+			font-family: Arial, sans-serif;
+		}
+
+		.container {
+			background-color: #ffffff;
+			border-radius: 20px;
+			color: rgb(173, 49, 49);
+			font-size: 38px;
+			padding: 0px;
+			margin: 15px auto;
+			text-align: center;
+			width: 450px;
+		}
+
+		canvas {
+			background: url('images/bg.jpg');
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 100%;
+			max-width: 10000px;
+			margin: 0 auto;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+
+		/* #ruleblock {
+			font-family: 'Exo', sans-serif;
+			margin: auto;
+			text-align: center;
+			font-size: 10px;
+			background: linear-gradient(to bottom, #574e4e, #78b478);
+			border-radius: 5px;
+			margin-top: 20px;
+			width: 100%;
+			max-width: 500px;
+			padding: 20px;
+			color: rgb(15, 7, 7);
+			box-shadow: 0 2px 4px rgba(199, 187, 187, 0.4);
+			overflow: hidden;
+		}
+
+		#rulehead {
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		#rules {
+			font-size: 14px;
+			line-height: 1.4;
+			margin-top: 5px;
+		} */
+
+		footer {
+			margin-top: 30px;
+			text-align: center;
+		}
+
+		#foot {
+			color: black;
+			font-size: 18px;
+			letter-spacing: 2px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<p>Shooting Balloons</p>
+</div>
+
+<canvas>
+	<div class="balloon"></div>
+</canvas>
+
+<!-- <div id="ruleblock">
+	<span id="rulehead"> RULES</span><br>
+	<span id="rules">
+		Tap 'space' to shoot arrows. One arrow can shoot only one balloon.<br>
+		Only the tip of the arrow bursts the balloon.
+	</span>
+</div> -->
+<div style="margin: 10px;">
+	<p>  <strong>Rule:</strong>      Tap 'space' to shoot arrows. One arrow can shoot only one balloon. Only the tip of the arrow bursts the balloon.</p>
+  </div>
+  
+
+
+<script src="main.js"></script>
+</body>
+</html>

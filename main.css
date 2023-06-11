@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	background-color: #1a1718; /* Change to a pink shade */
+}
+
+canvas {
+	background: url('images/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+	padding: 5px;
+	width: 100vw; /* Set width to viewport width */
+	margin: 60px auto; /* Simplify margin properties */
+}
+
+#head {
+	background-color: #fefcff;
+	border-radius: 20px;
+	color: white;
+	font-size: 44px;
+	height: 80px;
+	padding: 10px; /* Increase padding for better readability */
+	margin: 0 auto; /* Center horizontally */
+	text-align: center;
+	width: 400px;
+}
+
+#ruleblock {
+	font-family: 'Exo', sans-serif;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	background: linear-gradient(to bottom, #4CAF50, #388E3C);
+	border-radius: 5px;
+	margin-top: 30px;
+	width: 90%;
+	max-width: 500px;
+	padding: 20px;
+	color: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+#rulehead {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+footer {
+	margin-top: 30px; /* Increase top margin for spacing */
+}
+
+#foot {
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 2px; /* Reduce letter spacing for better readability */
+	font-weight: bold;
+}
+
+#heart {
+	font-size: 200%; /* Correct the property name to font-size */
+	color: red;
+}
+
+#nameLink {
+	text-decoration: none;
+	color: darkblue;
+}
